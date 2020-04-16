@@ -12,8 +12,12 @@ p {
 	font-weight: normal;
 }
 
-.column {
+.row {
   border-top: 1px solid black;
+	font-family: "Helvetica", Arial, sans-serif;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: normal;
 }
 
 .column {
