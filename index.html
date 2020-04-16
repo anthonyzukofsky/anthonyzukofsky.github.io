@@ -1,37 +1,120 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title>Anthony Zukofsky is a Graphic Designer</title>
-  <meta name="Class website" content="Graphic Designer">
-  <meta name="Anthony Zukofsky" content="SitePoint">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
-</head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <title>Design for Systems</title>
+  <meta name="Anthony Zukofsky, Graphic Design, Etc." content="anthony, zukofsky, graphic, design">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script type="text/javascript" src="jsfile.js"></script>
+  </head>
 
 <body>
-  <div id="introduction">
-    <p>ANTHONY ZUKOFSKY is a graphic designer in New York, NY, working on identity systems, and interactive projects for clients in art, architecture, education, and technology. He is currently a Senior Designer at Base Design, and teaching as an adjunct professor at The School of Visual Arts. </p>
-  </div>
-  
-  <div>
-    <h3>SELECTED WORKS</h3>
-    <ul>
-      <li>The New York Times Food Festival, 2019</li>
-      <li>Q&A, 2019</li>
-      <li>Digital Fabrications, 2019</li>
-      <li>SPAN 2019</li>
-    </ul>
+<! –– 1st column content -–>
 
-  <div id="education">
-    <p>EDUCATION</p>
-    <p>BFA Graphic Design (Honors), School of Visual Arts, 2015</p>
-  </div>
-  
-  <div id="habitat">
-    
-  </div>
+  <div class="course-info">
+
+                  <p>ANTHONY ZUKOFSKY (b.1992) is a graphic designer in New York, NY, working on identity systems
+                  and interactive projects for clients in art, architecture, education, and technology. He is currently a
+                  Senior Designer at Instrument and teaching as an adjunct professor at The School of Visual Arts.
+                  <br>Email, Twitter, Are.na
+                  </p>
+
+                  <p>
+                  <br>INDEX
+                  <br>Today at Apple, Identity, forthcoming
+                  <br>For All Sans, Object, 2020
+                  <br>down-arrow.net, Website, forthcoming
+                  <br>B–Sides, Software, 2020
+                  <br>Design for Systems, Teaching Portal, 2017–present
+                  <br>The New York Times Food Festival, Identity, 2019
+                  <br>Digital Fabrications, Publication, 2019
+                  <br>PALMA Architecture, Website, 2018
+                  <br>XXIX Studio Mailer, Object, 2018
+                  <br>IBM Plex Microsite, Website, 2018
+                  <br>Whole Earth, Object, 20178
+                  <br>Google SPAN, Identity, 2017
+                  <br>Museum of Capitalism, Identity, 2017
+                  <br>Google Material Design Awards, Object, 2017
+                  </p>
+
+                  <p>
+                  <br>EDUCATION
+                  <br>BFA Graphic Design (Honors), School of Visual Arts, 2015
+                  </p>
+
+                  <p>
+                  <br>EDUCATION
+                  <br>Instrument, 2020–present
+                  <br>Freelance, 2016–present
+                  <br>Base Design, 2018–2020
+                  <br>XXIX, 2017–2018
+                  <br>Google, Material Design, 2016–2017
+                  <br>Pentagram, Team Michael Bierut, 2015–2016
+                  <br>OCD (Original Champions of Design), 2015
+                  <br>Apple Inc., 2014
+                  <br>Office of Paul Sahre, 2014
+                  </p>
+
+                  <p>
+                  <br>PROJECTS
+                  <br>— An assemblage
+                  <br>— Post–protest
+                  <br>— A basic reader
+                  <br>— Link revival
+                  <br>— A coffee
+                  <br>— Scroll, Click, Swipe, Touch
+                  <br>— A remote assignment
+                  <br>— Bootlegging
+                  </p>
+
+                  <p>
+                  <br>WORKSHOPS
+                  <br>— Desktop performance
+                  <br>— The rotation system
+                  <br>— NY–See
+                  <br>— Secrecy systems
+                  </p>
+
+                  <p>
+                  <br>CREDITS
+                  <br>Some project outlines are translation of those created by other instructors at other institutions.
+                  You can find those credits at the bottom of each given project page.
+                  </p>
+
+                  <p>
+                  <br>“We are not the stuff that abides, but patterns that perpetuate themselves.”
+                  <br>–Norber Wiener
+                  </p>
+
+                  <div class="col">
+
+                      <br><div id="clockbox"></div>
+
+                      <script type="text/javascript">
+                      function GetClock(){
+                      var d=new Date();
+                      var nmonth=(d.getMonth()+1),ndate=d.getDate(),nyear=d.getFullYear();
+                      if(nmonth<=9) nmonth="0"+nmonth;
+                      if(ndate<=9) ndate="0"+ndate;
+                      var nhour=d.getHours(),nmin=d.getMinutes(),nsec=d.getSeconds();
+                      if(nmin<=9) nmin="0"+nmin;
+                      if(nsec<=9) nsec="0"+nsec;
+
+                      var clocktext=""+nyear+"-"+nmonth+"-"+ndate+" "+nhour+":"+nmin+":"+nsec+"";
+                      document.getElementById('clockbox').innerHTML=clocktext;
+                      }
+
+                      GetClock();
+                      setInterval(GetClock,1000);
+                      </script>
+
+                    </div>
+                    </div>
+
+<! –– 2nd column content -–>
+
 </body>
 </html>
